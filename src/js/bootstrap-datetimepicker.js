@@ -55,6 +55,7 @@
             this.language = options.language in dates ? options.language : 'en';
             this.pickDate = options.pickDate;
             this.pickTime = options.pickTime;
+            this.pickSeconds = options.pickSeconds;
             this.isInput = this.$element.is('input');
             this.component = false;
             if (this.$element.hasClass('input-group'))
